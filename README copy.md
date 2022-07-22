@@ -6,9 +6,9 @@
 ![](https://img.shields.io/badge/Mac-yellow.svg)
 ![](https://img.shields.io/badge/Centos-blue.svg)
 
-wechatBot 是基于 node 与 [wechaty](https://github.com/Chatie/wechaty) 的微信小情话工具。最初功能只有每日发送天气和一句情话，后来添加了智能机器人聊天功能。但由于本项目面向小白用户与刚接触 node 开发的用户，故拆分了两个项目，一个是功能专一面向小白的 [《微信每日说》](https://github.com/gengchen528/wechatBot) （也就是本项目） ，另一个也在我的仓库下 [《智能微秘书》](https://github.com/gengchen528/wechat-assistant-pro) 面向有较多编程经验的用户。下面主要介绍微信每日说的使用
 
 ## 最新通知 喜大普奔
+
 
 由于wechaty的升级，现已支持所有微信登录，就算你的微信之前不能登录web版，现在也可以用了，赶快来体验吧。
 
@@ -21,7 +21,7 @@ uos 又可以重新使用了~~由于UOS桌面版协议微信已经关闭了，�
 - [x] 定时给女朋友发送每日天气提醒，以及每日一句
 - [x] 天行机器人自动陪女朋友聊天（需要自己申请[天行机器人](https://www.tianapi.com/signup.html?source=474284281)api，不过目前开源的机器人 api 都不要抱太大希望，因为很傻的，如果你有发现好的机器人可以来推荐）
 - [x] 垃圾分类功能，使用方法：？垃圾名称
-- [x] 想要更多群管理，自动加好友功能，群定时任务，好友定时任务，并体验在线配置服务，请移步[《智能微秘书》](https://github.com/gengchen528/wechat-assistant-pro)
+- [x] 想要更多群管理，自动加好友功能，群定时任务，好友定时任务
 
 ### 可选聊天机器人
 
