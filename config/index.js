@@ -1,10 +1,11 @@
 // 配置文件
 module.exports = {
   // 每日说配置项（必填项）
-  NAME: "", //女朋友备注姓名
-  NICKNAME: "", //女朋友昵称
-  MEMORIAL_DAY: "2015/04/18", //你和女朋友的纪念日
-  CITY: "上海", //女朋友所在城市（城市名称，不要带“市”）
+  NAME: "", //备注姓名
+  NICKNAME: "", //昵称
+  MEMORIAL_DAY: "2015/04/18", //你和的纪念日
+  CITY: "shanghai", // 所在城市（城市名称，不要带“市”）
+  LOCATION: "pudong-new-district",
   SENDDATE: "0 19 17 * * *", //定时发送时间 每天8点06分0秒发送，规则见 /schedule/index.js
   TXAPIKEY: "天行key", //此处须填写个人申请的天行apikey,请替换成自己的 申请地址https://www.tianapi.com/signup.html?source=474284281
 
